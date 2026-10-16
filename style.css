@@ -1,18 +1,41 @@
+
 body{
-    background-color: salmon;
-}
-li{ color: rgb(60, 255, 34);
-}
-#rubber-soul{font-size: 50px;
+    width: 100vw;
+    height: 100vh;
 }
 
-.black-bg{
-    background-color: black;
-    color: white;
-    padding: 10px 10px;
-    margin: 100px 100px;
-}
-#bob {
-    background-color: rgb(248, 40, 213);
-}   
 
+#container{
+    background-color: #EEEEEE;
+    width: 100vw;
+    height: 50vh;
+/*display flex is the keayword to setup auto-layout*/
+    display: flex;
+    flex-direction: row;
+    /*flex direction is the direction that children will face*/
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
+}
+
+.box{
+    background-color: #888888;
+    width: 200px;
+    height: 200px;
+}
+
+
+.card{
+    background-color: #efb43d;
+    width: 20%;
+    height: 390px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.section{
+    display: flex;
+   flex-direction: row;
+   gap: 20px;
+}
